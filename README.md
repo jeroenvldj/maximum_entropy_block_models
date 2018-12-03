@@ -16,7 +16,7 @@ The details and performance of this method can be found in this open-access [pap
 [![paper](https://github.com/jeroenvldj/maximum_entropy_block_models/blob/master/images/article_header.png)](https://arxiv.org/abs/1805.06005)
 
 ## Code
-The code for the analytically solved null models, the Directed Configuration Model and the Reciprocated Configuration Model, is provided in a 'jupyter notebook' (for now) running on 'Python 3.5'. This notebook contains all explanations about the method, the functions and working examples to show how to use the code. 
+The code for the analytically solved null models, the Directed Configuration Model and the Reciprocated Configuration Model, is provided in a `jupyter notebook` (for now) running on `Python 3.5`. This notebook contains all explanations about the method, the functions and working examples to show how to use the code. 
 
 ## Example - Running the code
 The provided `jupyter notebook` is written to be self-explanatory and *self-contained*. Once the provided functions in the notebook are loaded, running the algorithm for a given degree sequence or observed network follows:
