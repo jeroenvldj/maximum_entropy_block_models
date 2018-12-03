@@ -21,7 +21,7 @@ The code for the analytically solved null models, the Directed Configuration Mod
 ## Example - Running the code
 The provided `jupyter notebook` is written to be self-explanatory and *self-contained*. Once the provided functions in the notebook are loaded, running the algorithm for a given degree sequence or observed network follows:
   1. Loading a network/graph, as the corresponding adjacency matrix in `numpy.array` format 
-<p align="center"><img width=250% src="https://github.com/jeroenvldj/maximum_entropy_block_models/blob/master/images/adjacency_matrix_example.png"></p>
+<p align="center"><img width=25% src="https://github.com/jeroenvldj/maximum_entropy_block_models/blob/master/images/adjacency_matrix_example.png"></p>
 
   2. Specify the partitioning of the graph into the block structure
 ```python
