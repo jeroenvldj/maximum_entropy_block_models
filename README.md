@@ -35,9 +35,8 @@ probability_adjacency = numerically_solve_block_dcm(adjacency_matrix=adjacency, 
 <p align="center"><img width=50% src="https://github.com/jeroenvldj/maximum_entropy_block_models/blob/master/images/adjacency_results.png"></p>
 
 ## Notes
-```diff
-- Please see the jupyter notebook for more details and examples.
-```
+**Please see the jupyter notebook for more details and examples.**
+
 
 MIT © Jeroen van Lidth de Jeude - [IMT School For Advanced Studies Lucca](https://www.imtlucca.it/)
 
