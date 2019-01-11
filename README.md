@@ -12,8 +12,8 @@ This code is for the calculation of **maximum entropy null models** for networks
 For networks with known partitions, the configuration model can be used with explicitly modelling these partitions. This code [analytically solves](http://iopscience.iop.org/article/10.1088/1367-2630/13/8/083001/meta) the configuration model within and between all clusters - all 'blocks' in the adjacency matrix. 
 
 ### Paper - full details on the method
-The details and performance of this method can be found in this open-access [paper](https://arxiv.org/abs/1805.06005). 
-[![paper](https://github.com/jeroenvldj/maximum_entropy_block_models/blob/master/images/article_header.png)](https://arxiv.org/abs/1805.06005)
+The details and performance of this method can be found in this open-access [paper](https://doi.org/10.1155/2019/5120581). 
+[![paper](https://github.com/jeroenvldj/maximum_entropy_block_models/blob/master/images/article_header.png)](https://doi.org/10.1155/2019/5120581)
 
 ## Code
 The code for the analytically solved null models, the Directed Configuration Model and the Reciprocated Configuration Model, is provided in a `jupyter notebook` (for now) running on `Python 3.5`. This notebook contains all explanations about the method, the functions and working examples to show how to use the code. 
@@ -40,4 +40,4 @@ probability_adjacency = numerically_solve_block_dcm(adjacency_matrix=adjacency, 
 
 MIT © Jeroen van Lidth de Jeude - [IMT School For Advanced Studies Lucca](https://www.imtlucca.it/)
 
-"[*Reconstructing mesoscale network structures*](https://arxiv.org/abs/1805.06005)" Jeroen van Lidth de Jeude, [Tiziano Squartini](https://www.imtlucca.it/tiziano.squartini), [Fabio Saracco](https://www.imtlucca.it/fabio.saracco), [Riccardo Di Clemente](http://www.riccardodiclemente.com/), [Guido Caldarelli](http://www.guidocaldarelli.com/), 15 May 2018
+"[*Reconstructing mesoscale network structures*](https://doi.org/10.1155/2019/5120581)" Jeroen van Lidth de Jeude, [Tiziano Squartini](https://www.imtlucca.it/tiziano.squartini), [Fabio Saracco](https://www.imtlucca.it/fabio.saracco), [Riccardo Di Clemente](http://www.riccardodiclemente.com/), [Guido Caldarelli](http://www.guidocaldarelli.com/), 15 May 2018
